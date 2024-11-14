@@ -1,0 +1,8 @@
+{
+    "editor.guides.bracketPairs": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.autoClosingBrackets": "always",
+	"editor.insertSpaces": false,
+	"editor.useTabStops": false,
+	"editor.detectIndentation": false
+}
