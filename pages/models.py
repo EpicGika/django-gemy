@@ -40,7 +40,7 @@ class video(models.Model):
 	
 class User_name(models.Model):
 	name = models.CharField(max_length=50)
-	watch = models.ManyToManyField(video, null=True)
+	watch = models.ManyToManyField(video,)
 
 	def __str__(self):
 		return self.name

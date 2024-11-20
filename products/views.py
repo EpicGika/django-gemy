@@ -7,5 +7,6 @@ def product(request):
 	return render(request, 'products/product.html')
 
 def products(request):
-
-	return render(request, 'products/products.html', {'pro':Product.objects.all()})
+	pro = Product.objects.all()
+	x = {'pro':pro.filter(price=100)}
+	return render(request, 'products/products.html', x)
